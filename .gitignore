@@ -1,0 +1,28 @@
+# 가상환경 / 커널
+.venv/
+venv/
+remote-kernel/
+__pycache__/
+*.pyc
+
+# 모델 가중치 (대용량)
+checkpoints/
+*.pt
+*.pth
+
+# 입출력 / 임시 산출물
+*.mp4
+*.avi
+tmp/
+temp/
+outputs/
+scene_eraser_*/
+
+# 노트북 체크포인트
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
