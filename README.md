@@ -128,5 +128,3 @@ SceneEraser/
 - **경계 국소 보정** — 전역 LAB affine으로 못 잡는 국소 밝기차를 마스크 주변 밴드 국소 보정 또는 `cv2.seamlessClone`으로 처리.
 - **잔여 영역 LaMa** — `cv2.inpaint`(TELEA)는 큰 영역을 뭉갬. clean_plate 1장에만 LaMa 1회 적용해 텍스처 복원.
 - **optical-flow 기반 시간 복사** — nearest 프레임 대신 광류로 대응 픽셀 탐색, 미세 배경 움직임에 robust.
-
-## 라이선스
